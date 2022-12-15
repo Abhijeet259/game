@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="back">
+        <img class="bgimg" src="./image/levelbg2.webp" alt="Girl in a jacket" width="100%" height="100vh">
+        <div>
+            <a href="./level1/level1.html"><img class="level1" src="./image/level1.png" alt="Girl in a jacket">
+            </a>
+            <a id="levels2" ><img class="level2" src="./image/level2.png" alt="Girl in a jacket">
+            </a>
+            <a id="levels3" ><img class="level3" src="./image/level3.png" alt="Girl in a jacket">
+            </a>
+            <a id="levels4" ><img class="level4" src="./image/level4.png" alt="Girl in a jacket">
+            </a>
+            <a id="levels5" ><img class="level5" src="./image/level5.png" alt="Girl in a jacket">
+            </a>
+        </div>
+        
+
+    </div>
+    <script src="./level1/demo.js"></script>
+    <script>
+        // let val1 = document.getElementById("levels2");
+        console.log(localStorage.getItem("gamelevel2"));
+        let changeone = localStorage.getItem("gamelevel2");
+        document.getElementById("levels2").setAttribute("href",changeone)
+
+
+
+        console.log(localStorage.getItem("gamelevel3"));
+        let changetwo = localStorage.getItem("gamelevel3");
+        document.getElementById("levels3").setAttribute("href",changetwo)
+
+
+
+        console.log(localStorage.getItem("gamelevel4"));
+        let changethree = localStorage.getItem("gamelevel4");
+        document.getElementById("levels4").setAttribute("href",changethree)
+
+        console.log(localStorage.getItem("gamelevel5"));
+        let changefour = localStorage.getItem("gamelevel5");
+        document.getElementById("levels5").setAttribute("href",changethree)
+    </script>
+</body>
+</html>

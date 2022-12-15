@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.back{
+    position: relative;
+}
+
+
+.bgimg{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+
+.level1{
+    position: absolute;
+  bottom: 150px;
+  left: 140px;
+  width: 100px;
+
+  -webkit-animation: MoveUpDown1 3s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown1 {
+    0% {
+        bottom: 150px;
+    }
+    50%{
+        bottom: 140px;
+    }
+    100% { 
+        bottom: 150px;
+    }
+}
+
+
+
+
+.level2{
+    position: absolute;
+  top: 170px;
+  left: 400px;
+  width: 100px;
+
+  -webkit-animation: MoveUpDown2 3s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown2 {
+    0% {
+        top: 170px;
+    }
+    50%{
+        top: 180px;
+    }
+    100% { 
+        top: 170px;
+    }
+}
+
+
+.level3{
+    position: absolute;
+  top: 270px;
+  right: 680px;
+  width: 100px;
+
+  -webkit-animation: MoveUpDown3 3s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown3 {
+    0% {
+        top: 270px;
+    }
+    50%{
+        top: 260px;
+    }
+    100% { 
+        top: 270px;
+    }
+}
+
+
+
+
+
+
+
+.level4{
+    position: absolute;
+  top: 150px;
+  right: 400px;
+  width: 100px;
+
+  -webkit-animation: MoveUpDown4 3s linear infinite;
+}
+
+@-webkit-keyframes MoveUpDown4 {
+    0% {
+        top: 150px;
+    }
+    50%{
+        top: 160px;
+    }
+    100% { 
+        top: 150px;
+    }
+}
+
+
+.level5{
+    position: absolute;
+  bottom: 200px;
+  right: 140px;
+  width: 100px;
+
+  -webkit-animation: MoveUpDown5 3s linear infinite;
+}
+
+
+@-webkit-keyframes MoveUpDown5 {
+    0% {
+        bottom: 200px;
+    }
+    50%{
+        bottom: 190px;
+    }
+    100% { 
+        bottom: 200px;
+    }
+}
+
+
+
+@media (max-width:1000px){
+
+    .level1{
+        position: absolute;
+      bottom: 50px;
+      left: 40px;
+      width: 100px;
+    
+      -webkit-animation: MoveUpDown1 3s linear infinite;
+    }
+    
+    @-webkit-keyframes MoveUpDown1 {
+        0% {
+            bottom: 50px;
+        }
+        50%{
+            bottom: 45px;
+        }
+        100% { 
+            bottom: 50px;
+        }
+    }
+    
+    
+    
+    
+    .level2{
+        position: absolute;
+      top: 70px;
+      left: 200px;
+      width: 100px;
+    
+      -webkit-animation: MoveUpDown2 3s linear infinite;
+    }
+    
+    @-webkit-keyframes MoveUpDown2 {
+        0% {
+            top: 70px;
+        }
+        50%{
+            top: 75px;
+        }
+        100% { 
+            top: 70px;
+        }
+    }
+    
+    
+    .level3{
+        position: absolute;
+      top: 170px;
+      right: 380px;
+      width: 100px;
+    
+      -webkit-animation: MoveUpDown3 3s linear infinite;
+    }
+    
+    @-webkit-keyframes MoveUpDown3 {
+        0% {
+            top: 170px;
+        }
+        50%{
+            top: 160px;
+        }
+        100% { 
+            top: 170px;
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    .level4{
+        position: absolute;
+      top: 100px;
+      right: 200px;
+      width: 100px;
+    
+      -webkit-animation: MoveUpDown4 3s linear infinite;
+    }
+    
+    @-webkit-keyframes MoveUpDown4 {
+        0% {
+            top: 100px;
+        }
+        50%{
+            top: 110px;
+        }
+        100% { 
+            top: 100px;
+        }
+    }
+    
+    
+    .level5{
+        position: absolute;
+      bottom: 60px;
+      right: 80px;
+      width: 100px;
+    
+      -webkit-animation: MoveUpDown5 3s linear infinite;
+    }
+    
+    
+    @-webkit-keyframes MoveUpDown5 {
+        0% {
+            bottom: 60px;
+        }
+        50%{
+            bottom: 55px;
+        }
+        100% { 
+            bottom: 60px;
+        }
+    }
+
+
+}
+
+
+@media (max-width:800px){
+    .level3{
+        position: absolute;
+      top: 170px;
+      right: 330px;
+      width: 100px;
+    
+      -webkit-animation: MoveUpDown3 3s linear infinite;
+    }
+    
+    @-webkit-keyframes MoveUpDown3 {
+        0% {
+            top: 170px;
+        }
+        50%{
+            top: 160px;
+        }
+        100% { 
+            top: 170px;
+        }
+    }
+}
+
+
+@media (max-width:800px){
+    .level2{
+        position: absolute;
+      top: 70px;
+      left: 170px;
+      width: 100px;
+    
+      -webkit-animation: MoveUpDown2 3s linear infinite;
+    }
+    
+    .level5{
+        right: 50px;
+    }
+   
+    .level4{
+        right: 170px;
+    }
+
+    .level3{
+        right: 280px;
+    }
+
+}
+
+
